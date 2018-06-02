@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="WixMinecraftTut_api" target="1.8" />
+      <module name="WixMinecraftTut_main" target="1.8" />
+      <module name="WixMinecraftTut_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

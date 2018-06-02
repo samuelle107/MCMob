@@ -1,0 +1,61 @@
+[21:12:24] [main/INFO]: Setting user: Player959
+[21:12:28] [main/INFO]: LWJGL Version: 2.9.4
+[21:12:31] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tutorial Mod
+[21:12:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:12:34] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[21:12:34] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:12:34] [Thread-5/INFO]: OpenAL initialized.
+[21:12:35] [Sound Library Loader/INFO]: Sound engine started
+[21:12:39] [main/INFO]: Created: 512x512 textures-atlas
+[21:12:40] [main/INFO]: Narrator library for x64 successfully loaded
+[21:12:41] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[21:12:49] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[21:12:49] [Server thread/INFO]: Generating keypair
+[21:12:50] [Server thread/INFO]: Loaded 488 advancements
+[21:12:50] [Server thread/INFO]: Preparing start region for level 0
+[21:12:51] [Server thread/INFO]: Preparing spawn area: 78%
+[21:12:52] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:12:53] [Server thread/INFO]: Player959[local:E:f84f7242] logged in with entity id 269 at (-92.38569859216814, 66.0, -246.1282127702506)
+[21:12:53] [Server thread/INFO]: Player959 joined the game
+[21:12:54] [Server thread/INFO]: Saving and pausing game...
+[21:12:54] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:12:54] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:12:54] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:12:54] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5c456b81[id=e4e5b30f-b972-382c-b5e5-86c2e785a8a6,name=Player959,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3172) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
+[21:13:04] [Server thread/INFO]: Saving and pausing game...
+[21:13:04] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:13:04] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:13:04] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:13:05] [Server thread/INFO]: Stopping server
+[21:13:05] [Server thread/INFO]: Saving players
+[21:13:05] [Server thread/INFO]: Player959 lost connection: Disconnected
+[21:13:05] [Server thread/INFO]: Player959 left the game
+[21:13:05] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:13:05] [Server thread/INFO]: Saving worlds
+[21:13:05] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[21:13:05] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[21:13:05] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[21:13:06] [main/INFO]: Stopping!
+[21:13:06] [main/INFO]: SoundSystem shutting down...
+[21:13:06] [main/WARN]: Author: Paul Lamb, www.paulscode.com

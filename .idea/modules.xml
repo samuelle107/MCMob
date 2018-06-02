@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WixMinecraftTut.iml" filepath="$PROJECT_DIR$/WixMinecraftTut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WixMinecraftTut_api.iml" filepath="$PROJECT_DIR$/.idea/modules/WixMinecraftTut_api.iml" group="WixMinecraftTut" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WixMinecraftTut_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WixMinecraftTut_main.iml" group="WixMinecraftTut" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WixMinecraftTut_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WixMinecraftTut_test.iml" group="WixMinecraftTut" />
+    </modules>
+  </component>
+</project>
