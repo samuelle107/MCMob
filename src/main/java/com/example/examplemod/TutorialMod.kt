@@ -1,5 +1,6 @@
 package com.example.examplemod
 
+import com.example.examplemod.mob.ModEntities
 import com.example.examplemod.mod_registration.ModBlocks
 import com.example.examplemod.mod_registration.ModItems
 import net.minecraftforge.fml.common.Mod
@@ -10,6 +11,7 @@ import net.minecraftforge.fml.common.SidedProxy
 import net.minecraftforge.event.RegistryEvent
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent
 import net.minecraftforge.client.event.ModelRegistryEvent
+import net.minecraftforge.fml.common.event.FMLInitializationEvent
 
 const val modId = "tutorial"
 const val name = "Tutorial Mod"
@@ -35,6 +37,7 @@ class TutorialMod
         {
             ModItems.registerModels()
             ModBlocks.registerModels()
+            ModEntities.initModels()
 
         }
         @JvmStatic
@@ -43,6 +46,11 @@ class TutorialMod
         {
             ModBlocks.register(event.registry)
         }
+    }
+    @Mod.EventHandler
+    fun init(event: FMLInitializationEvent)
+    {
+        ModEntities.init()
     }
     companion object
     {
